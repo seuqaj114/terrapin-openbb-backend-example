@@ -1,0 +1,19 @@
+{
+  "terrapin": {
+    "name": "UK Government debt schedule",
+    "description": "Fetch UK debt schedule using the Terrapin API",
+    "category": "Fixed Income",
+    "subCategory": "Fixed Income Data",
+    "endpoint": "debt_payment_schedule",
+    "gridData": {
+      "w": 20,
+      "h": 5
+    },
+    "data": {
+      "table": {
+        "index": "id",
+        "showAll": true
+      }
+    }
+  }
+}
